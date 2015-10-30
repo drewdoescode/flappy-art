@@ -7,7 +7,7 @@ var Flapper = function(game) {
   this.smoothed = false;
   this.checkWorldBounds = true;
   this.outOfBoundsKill = true;
-  this.scale.set(1.3);
+  this.scale.set(0.5);
   this.anchor.setTo(0.5,0.5);
   //this.animations.add('fly', [0,1,2], 10, true);
   //this.play('fly');

@@ -25,8 +25,8 @@ Flappy.Play.prototype = {
 
     this.background = this.add.tileSprite(0,0,320,568,"background");
     this.background.autoScroll(-50,0);
-    this.background.animations.add('bganim');
-    this.background.animations.play('bganim',20,true);
+//    this.background.animations.add('bganim');
+//  this.background.animations.play('bganim',20,true);
 
     this.flappy = new Flapper(this.game);
     this.timer = this.game.time.events.loop(2500, this.addPipe, this);           

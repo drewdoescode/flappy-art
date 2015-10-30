@@ -20,8 +20,8 @@ Flappy.Start.prototype = {
 
     this.background = this.add.tileSprite(0,0,320,568,"background");
     this.background.autoScroll(-50,0);
-    this.background.animations.add('bganim');
-    this.background.animations.play('bganim',20,true);
+//    this.background.animations.add('bganim');
+//  this.background.animations.play('bganim',20,true);
 
     this.button = this.game.add.button(this.game.world.centerX, this.game.world.centerY+100,"button", this.start, this);
     this.button.anchor.set(0.5,0.5);
