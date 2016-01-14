@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flappy Game Template (HTML5-PHSC)
 
 Use this template to assemble your own game like Flappy Bird. Then, as
@@ -46,3 +47,6 @@ created using the following awesome technologies:
 [CocoonJS]: https://www.ludei.com/cocoonjs/
 [PiskelApp.com]: https://piskelapp.com
 
+=======
+# flappy
+>>>>>>> 118d9ed6604a455bf24e70d80d3fd1d785f41ef8
